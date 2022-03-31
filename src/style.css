@@ -1,0 +1,64 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 128px 11px;
+    color: #fff;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 998px){
+    .images{
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+}
+
+.images .arte{
+    height: 431px;
+    width: 335px;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.arte.um{
+    background: url("../images/rome.png") center center no-repeat;
+}
+
+.arte.dois{
+    background: url("../images/boat.png") center center no-repeat;
+}
+
+.arte.tres{
+    background: url("../images/sand-and-sea.png") center center no-repeat;
+}
+
+.arte.quatro{
+    background: url("../images/starry-night.png") center center no-repeat;
+}
+
+.images .arte h2 span{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.images .arte h2 p{
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 5px;
+}
+
+.images .arte h2{
+    margin: 0 19px 43px;
+}
